@@ -32,6 +32,14 @@ pip install mediapipe
 pip install pyFirmata2
 ```
 
+### 4. Additional Steps for Arduino Integration
+- Install the `pyFirmata` library from [this link](https://pypi.org/project/pyFirmata/).
+- Upload the `StandardFirmata.ino` sketch to your Arduino board. You can find this sketch in the Arduino IDE under **File > Examples > Firmata > StandardFirmata**.
+
+## Schematic
+
+![image](https://github.com/user-attachments/assets/380dd4c5-2896-425f-a79e-0832cb077f22)
+
 ## Notes
 - Ensure the virtual environment is activated before installing any libraries or running the project.
 - If you encounter issues with library installations, consider upgrading `pip` using:
@@ -39,12 +47,4 @@ pip install pyFirmata2
   python -m pip install --upgrade pip
   ```
 
-## Schematic
-
-![image](https://github.com/user-attachments/assets/380dd4c5-2896-425f-a79e-0832cb077f22)
-
-
-
 You're now ready to start working on the project!
-
-
