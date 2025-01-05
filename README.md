@@ -33,7 +33,7 @@ pip install pyFirmata2
 ```
 
 ### 4. Additional Steps for Arduino Integration
-- Install the `pyFirmata` library from [this link](https://pypi.org/project/pyFirmata/).
+- Install the `pyFirmata` library v2.5.8 from [this link](https://github.com/firmata/arduino).
 - Upload the `StandardFirmata.ino` sketch to your Arduino board. You can find this sketch in the Arduino IDE under **File > Examples > Firmata > StandardFirmata**.
 
 ## Schematic
